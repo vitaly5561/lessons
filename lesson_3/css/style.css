@@ -1,0 +1,67 @@
+
+@import url("reset.css");
+
+/* для всех объектов */
+* {
+	color: rgb(16, 0, 0);
+}
+
+/*для селектора тега*/
+p {
+	color: rgb(6, 15, 135);
+}
+
+/* селектор класса*/
+.block {
+	color: rgb(235, 8, 8);
+}
+
+/* для селектора id*/
+#north{
+	color: red;
+}
+
+/*комбинация селекторов*/
+
+/*для всех li с классом main_list_items */
+li.main_list_items{ color: red;
+	color: red;
+}
+
+/*селектор класса + селектор класса*/
+.main_list_items.end{ color: green;}
+
+/*до объектов классов*/
+.block, .text{ 
+	color: rgb(242, 8, 0);}
+
+/*вложенность селекторов*/
+.block_town h3
+{
+	color: green;
+}
+.text p{color: green;}
+
+/*для всех объектов с классом block*/
+.block *{
+	color: black;
+}
+
+/*обращение до 1 уровня вложенности*/
+.block>p{
+	color: red;
+}
+
+/*обращение к div которые находятся ниже после объектов с классом block*/
+
+.block~div{
+	color: blue;
+}
+
+/*тег p который находистя  дальше по коду после обьектов с классом .block и имеет тот самый уровень вложенности*/
+.block+p{
+	color:red;
+}
+/*селектор атрибута*/
+[href]{ color: rgb(72, 0, 255);}
+
