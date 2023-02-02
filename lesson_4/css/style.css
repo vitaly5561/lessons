@@ -21,8 +21,8 @@ body{
 	text-indent: 20px;
 	
 }
-#title{
-	
+#header_title{
+	font-family: "Yellowtail:";
 	color: red;
 	font-size: 30px;
 	text-align: center;
