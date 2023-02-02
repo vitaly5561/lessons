@@ -1,0 +1,104 @@
+
+/*@import url(/css/reset.css);*/
+
+@font-face {
+	font-family: 'Amidic';
+	src: url('../fonts/Amidic-Regular.woff2') format('woff2'),
+		url('../fonts/Amidic-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'AMAZINGA';
+	src: url('../fonts/AMAZINGA.woff2') format('woff2'),
+		url('../fonts/AMAZINGA.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+body{
+	text-indent: 20px;
+	
+}
+#title{
+	
+	color: red;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+ol .header_link_items{
+	color: rgb(14, 39, 129);
+	font-size: 20px;
+}
+
+ol .header_link_items a{
+	font-family: "Roboto+Serif";
+	font-style: italic;
+	font-weight: 700;
+	color: rgb(8, 129, 53);
+	font-size: 25px;
+	line-height: 1.6;
+	text-decoration: none;
+}
+
+
+p{
+	font-family: "Amidic-Regular", serif;
+	font-size: 25px;
+	font-style: oblique;
+	text-align: justify ;
+	font-size: 16px;
+	line-height: 1.9;
+word-spacing: 5px;
+}
+/*обращение к 1 уровню вложенности селектора p  класса   block_2*/
+.block_2>p{
+	color: red;
+	text-transform: capitalize;
+	text-decoration: line-through;
+}
+/*обращение к div тегам которые находятся по коду ниже класса block_3*/
+.block_3~div{
+	color: green;
+}
+
+.main_title {
+	font-family: "AMAZINGA";
+	font-style: italic;
+	font-weight: 400;
+	color: rgb(207, 178, 12);
+	font-size: 25px;
+	text-shadow: 2px 2px 5px rgb(1, 0, 0), -2px -2px 5px rgb(16, 12, 12);
+	text-transform: lowercase;
+	letter-spacing: 3px;
+}
+
+h3{
+	font-family: "AMAZINGA";
+	font-style: oblique;
+	font-size: 22px;
+	text-decoration: overline;
+	color: black;
+	letter-spacing:3px;
+}
+
+.footer_top {
+	color: red;
+	text-decoration: none;
+	text-shadow: 1px 1px 5px black, -1px -1px 5px black;
+}
+
+.link .main_link_items{
+	font-family: "Roboto+Serif";
+	font-style: italic;
+	font-weight: 900;
+	font-size: 20px;
+	color: rgb(55, 0, 255);
+	text-decoration: underline;
+	line-height: 1.5;
+}
+
