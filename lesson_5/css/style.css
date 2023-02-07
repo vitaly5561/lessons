@@ -1,0 +1,157 @@
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins-Light.woff2') format('woff2'),
+		url('../fonts/Poppins-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins-Bold.woff2') format('woff2'),
+		url('../fonts/Poppins-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+body{
+font-family: 'Poppins', sans-serif;
+max-width: 1240px;
+background: #E5E5E5;
+margin: 0 auto;
+}
+.conteiner-main{
+max-width: 816px;
+margin: 0 auto;
+}
+/* задаем стили для  зоголовка H1*/
+.main-title{
+color: #212529;
+max-width: 400px;
+margin:104px 0 40px 0;
+font-weight: 700;
+font-size: 25px;
+line-height: 40px;
+line-height: 1.6;
+}
+/* задаем стили для  блока .main-subtitle с параграфами*/
+.main-subtitle
+{
+margin-bottom: 80px;
+
+}
+
+p{
+color: #6C757D;
+font-weight: 300;
+font-size: 14px;
+line-height: 1.5;
+margin-bottom: 40px;
+}
+/* задаем стили для 1 картинки*/
+.sald{
+max-width: 100%;
+padding: 0 10px;
+margin-bottom: 80px;
+}
+
+/* задаем стили для  зоголовка H2*/
+.title2{
+color: #212529;
+max-width: 605px;
+font-weight: 700;
+font-size: 25px;
+line-height: 1.6;
+margin-bottom: 40px;
+}
+/* задаем стили для блока .img-lake с картинками */
+.img-lake{
+max-width: 100%;
+margin-bottom: 80px;
+font-size: 0;
+}
+
+.img-lake img{
+display: inline-block;
+font-size: 16px;
+}
+
+.boat{
+max-width: 50%;
+padding-right: 15px;
+}
+
+.lake{
+max-width: 50%;
+padding-left: 15px;
+}
+
+/*тренировка домашнего задания*/
+.dz5{
+	max-width: 900px;
+	margin: 0 auto;
+	background-color: aqua;
+	
+}
+.block {
+	max-width: 400px;
+	margin: 30px;
+	padding: 20px 40px 40px 50px;
+	background-color: #6C757D;
+}
+
+.block2{
+		
+	background-color: bisque;
+		margin: 50px 60px 33px;
+		padding: 20px;
+		
+}
+
+.avto1{
+	padding: 20px;
+	background-color: yellow;
+	vertical-align: bottom;
+}
+
+
+.inline {
+	display: inline;
+	background-color: #cfd5db;
+	padding-left: 22px;
+	margin: 10px; 
+}
+
+.inline-block {
+	max-width: 70%;
+	margin-left: -130px;
+	margin-top: 22px; 
+	padding: 10px;
+	
+}
+.inline-block2{
+display: block;
+margin-left: 30px;
+padding: 40px;
+max-width: 400px;
+margin: 0 auto;
+}
+.inline-block3{
+	
+	height: 150px;
+
+}
+
+.inline-block4 {
+	display: none;
+	height: 150px;
+}
+.inline2{
+display: block;
+max-width: 200px;
+max-height:  200px;
+overflow: hidden;
+}
