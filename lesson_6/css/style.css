@@ -1,0 +1,130 @@
+
+
+[class*="__conteiner1"]{
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+
+body{
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.78; /* 25/14 */
+	color: #6C757D;
+}
+
+img{
+	border-radius: 5px;
+}
+.title-conteiner{
+	max-width: 816px;
+	margin: 0 auto 80px;
+}
+
+.title{
+	color: #212529;
+	max-width: 605px;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6; /* 40/25 */
+	margin-bottom: 40px;
+}
+.title-conteiner p{
+	margin-bottom: 30px;
+}
+.sald{
+margin-bottom: 80px;
+}
+
+
+.images{
+	max-width: 100%;
+	font-size: 0;
+}
+.image-lake{
+	margin-bottom: 80px;
+	margin-right: 30px;
+}
+
+
+/*для page 2 стили*/
+
+[class*="__conteiner2"] {
+	max-width: 1470px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+.img-cloth{
+	max-width: 100%;
+	margin-bottom: 100px;
+}
+
+.title-conteiner {
+margin-bottom: 100px;
+}
+
+.imeges__conteiner1{
+	font-size: 0;
+}
+
+.imege-cloth2{
+	margin-right: 30px;
+	margin-bottom: 100px;
+}
+
+
+/*training-dz тренировка */
+ .training-dz{
+max-width:600px ;
+margin: 0 auto;	
+margin-bottom: 90px;
+ }
+.title2{
+
+	color:red;
+	background-color: bisque;
+	font-size: 35px;
+	margin-bottom: 10px;
+	box-shadow: 2px 3px 0 0  #6C757D;
+}
+
+.training-subtitle {
+	border: 3px solid yellowgreen;
+	opacity: 0.5;
+}
+.training-dz p{
+	margin-bottom: 20px;
+}
+
+.foto{
+	max-width:100%;
+	margin-bottom: 30px;
+
+}
+.image-vw1 {
+	border: 2px dotted red;
+	box-shadow: inset 0px 0px 20px 0px #000; 
+	
+}
+.image-vw2 {
+	border-radius: 40px;
+	border: 2px double green;
+	outline: 4px solid red;
+	box-shadow: -3px -14px 3px 3px rgba(58, 5, 5, 0.619) ;
+	opacity: 0.7;
+}
+
+.disconnect{
+	visibility: hidden;
+}
+
+span{
+	border: 2px solid #6C757D;
+}
