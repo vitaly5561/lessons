@@ -1,0 +1,201 @@
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Inter:300,regular,700&displayswap);
+main{
+	font-family: "Inter", sans-serif ;
+	background: #E6E6E6;
+}
+
+
+
+.header {
+	width: 1470px;
+	padding: 0 15px;
+	background: url("../img/icons/header-bg.jpg") center /cover no-repeat;
+	padding-top: 330px;
+	padding-left: 100px;
+	border-radius: 0px 5px 5px 0px;
+}
+[class*="__conteiner1"] {
+max-width: 605px;
+margin: auto 0;
+}
+.header__conteiner1  {
+color: #F8F9FA;
+font-weight: 300;
+font-size: 12px;
+line-height: 1.66; /* 20/12 */
+padding-bottom: 100px;
+}
+
+.header__conteiner1 p, h1{
+	margin-bottom: 15px;
+}
+.text{
+font-weight: 700;
+font-size: 25px;
+line-height: 1.6; /* 40/25 */
+}
+
+.speaker{
+max-width: 	1470px;
+margin: 0 auto;
+padding-top: 145px;
+padding-left: 135px;
+margin-bottom: 100px;
+background: url("../img/icons/speaker.png") 75% center/ 20% 70% no-repeat , linear-gradient(131deg, rgba(244, 247, 255, 1) 62%, rgba(228, 234, 251, 1) 62%, rgba(228, 234, 251, 1) 68%, rgba(214, 223, 248, 1) 68%);;
+
+}
+
+.text-speaker{
+	max-width: 507px;
+	margin: auto 0;
+	
+}
+
+ h3{
+	color: #212B36;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.25; /* 45/36 */
+ }
+.text-speaker p,h3, a{
+margin-bottom: 15px;
+
+}
+
+.buttom {
+	margin-top: 35px;
+	display: inline-block;
+	background: #3056D3;
+	border-radius: 30px;
+	padding: 10px 30px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.5; /* 24/16 */
+	color: #FFFFFF;
+}
+
+
+.list-section{
+	color: #637381;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1;
+	margin-bottom: 62px;
+	background: radial-gradient(circle, rgba(244, 247, 255, 1) 33%, rgba(228, 251, 229, 0.9920561974789917) 52%, rgba(231, 223, 243, 1) 64%, rgba(248, 246, 214, 1) 79%, rgba(208, 212, 225, 1) 85%);
+	
+}
+.title-text {
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 1.07;
+	/* 28px/26 */
+	color: #212B36;
+	padding-bottom: 20px;
+}
+/* для первого ul стили*/
+.one-section li{
+	margin-bottom: 18px;
+}
+.circle{
+	max-width: 264px;
+	background: linear-gradient(55.95deg, #961917 0%, #6b3312 100%);
+}
+
+.circle li{
+background: url("../img/icons/ellipse.svg") left 5px/ 8px  no-repeat ;
+padding-left: 20px;
+padding-top: 2px;
+min-height: 8px;
+}
+
+
+/* для второго ul стили*/
+
+.two-section li{
+	margin-bottom: 20px;
+}
+.checkmark-circle1{
+max-width: 309px;
+background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(30, 200, 72, 1) 100%);
+}
+
+.checkmark-circle1 li{
+background: url("../img/icons/checkmark-circle.png") left 0/ 20px no-repeat;
+padding-left: 30px;
+min-height: 20px;
+padding-top: 2px;
+}
+
+/* для третьего  ul стили*/
+.three-section li {
+	margin-bottom: 20px;
+}
+
+.checkmark-circle2 {
+	max-width: 309px;
+background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(175, 215, 194, 1) 100%);
+}
+
+.checkmark-circle2 li {
+	background: url("../img/icons/checkmark-circle2.svg") 0 0/ 20px no-repeat;
+	padding-left: 30px;
+	min-height: 20px;
+	padding-top: 2px;
+}
+
+/* для четвертого ul стили*/
+.four-section {
+	max-width: 309px;
+	margin-bottom: 63px;
+}
+
+.four-section li
+{
+	margin-bottom: 20px;
+}
+.cross-circle li {
+	background: url("../img/icons/cross-circle.svg") left 0/20px no-repeat ;
+	padding-left: 30px;
+	min-height: 20px;
+	padding-top: 2px;
+}
+
+
+
+
+
+/* для пятого ul стили*/
+.five-section {
+max-width:309px ;
+margin-bottom: 63px;
+background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(66, 99, 21, 0.41222426470588236) 100%);
+}
+.five-section li{
+margin-bottom: 20px;
+}
+.vector li {
+background: url("../img/icons/arrow-right.svg") left -2px/ 20px no-repeat;
+padding-left: 30px;
+min-height: 20px;
+
+}
+
+.list-five {}
+
+.list-three {}
+/* для шестого  ulстили*/
+.six-section {
+	max-width: 307px;
+	margin-bottom: 63px;}
+
+.six-section li{
+	margin-bottom: 20px;
+}
+.star li {
+	background: url("../img/icons/star.svg") left -1px/ 18px no-repeat;
+	padding-left: 25px;
+	padding-top: 2px;
+	min-height: 18px;
+}
