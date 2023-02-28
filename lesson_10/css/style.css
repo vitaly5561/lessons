@@ -58,11 +58,12 @@ body {
 {color: rgb(6, 6, 6);}
 
 .card__item {
+width: 30%;
 display: inline-block;
 border-radius: 3px;
 		}
 
-.card__item img{
+.card__item  img{
 width: 100%;
 		}
 .info{
