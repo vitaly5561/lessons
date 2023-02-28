@@ -1,0 +1,94 @@
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&displayswap);
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+[class*="__container"] {
+	margin: 0 auto;
+	max-width: 1270px;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+}
+
+.menu{
+	display: inline-block;
+	margin-right: 10px;
+	color: #C4C4C4;
+}
+.menu__item {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.menu__list li:last-child{
+	margin-right: 0;
+}
+
+.page-section{
+	background: url("../img/foto-bg.jpg");
+	border-radius: 5px;
+	padding-top: 192px;
+	padding-bottom: 192px;
+	text-align: center;
+}
+
+.subtitle{
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.67;
+	color: #E5E5E5;
+}
+.title{
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6; /* 40/25 */	
+	color: #F8F9FA;
+}
+
+.header-desiner__title_black{
+
+	color: #050505;}
+
+
+.traiding__title_black
+{color: rgb(6, 6, 6);}
+
+.card__item {
+display: inline-block;
+border-radius: 3px;
+		}
+
+.card__item img{
+width: 100%;
+		}
+.info{
+	color: #495057;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.66; /* 20/12 */
+}
+.text{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.56; /* 25/16 */
+	color: #212529;
+}
+.card__info_black{color: #c6da2e;
+
+}
+.card__text_black {
+			color: #480101;
+	
+		}
+
+.footer{
+	background: url("../img/footer-bg.jpg");
+}
+
+.menu__link_active:visited{
+	color: #495057;
+}
