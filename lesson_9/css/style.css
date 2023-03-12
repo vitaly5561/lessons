@@ -1,0 +1,83 @@
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&displayswap);
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 22px;
+	background-color: rgba(128, 128, 128, 0.254);
+}
+
+[class*="__container"] {
+	margin: 0 auto;
+	max-width: 1270px;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+}
+
+.main__text-icons{
+	background-color: blueviolet;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 3px 5px black;
+	text-shadow: 2px 2px 4px rgba(124, 102, 102, 0.701);
+
+}
+
+.main__text-icons:hover{
+	background-color:tomato;
+	color: black;
+	font-size: 30px;
+}
+
+.icons{
+	background-color: rgb(101, 155, 54);
+	margin-top: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 100px;
+	box-shadow: 3px 6px 9px tomato;
+	
+}
+
+.icons .icons__item{
+	padding-right: 25px;
+	padding-top: 20px;
+}
+
+.icons:hover{
+background-color: rgba(255, 0, 0, 0.66);
+}
+
+.designer{
+	margin-top: 20px ;
+	background-color: beige;
+	border-radius: 5px;
+      padding: 100px;
+	background: url(../img/design_img/dottedshape.svg)top right no-repeat , url(../img/design_img/oval_blue.svg) no-repeat,url(../img/design_img/oval_green.svg) bottom right no-repeat, url(../img/design_img/testimonial/img_1.svg ) center top no-repeat, url(../img/design_img/testimonial/img_2.svg) center bottom no-repeat, url(../img/design_img/testimonial/oval.svg) left bottom no-repeat ;
+}
+
+
+.designer:hover{
+	background-color: bisque;
+	box-shadow: 3px 3px 3px black;
+}
+
+.contect{
+	margin-top: 20px;
+}
+
+.text{
+	background-color: blueviolet;
+	border-radius: 5px;
+}
+
+.contect img{
+	display: inline-block;
+	border-radius: 25px;
+	margin-right: 10px;
+	margin-top: 10px;
+
+}
