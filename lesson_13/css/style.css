@@ -1,0 +1,278 @@
+@import url("reset.css");
+@import url("common.css");
+
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background-color: #333;
+	color: #fff;
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+[class="__container"]{
+	max-width: 1230px;
+	padding: 0 15px;
+	margin: 0 	auto;
+}
+.box{ 
+	width: 200px;
+	height: 200px;
+	background-color: rgb(234, 255, 71);
+	border-radius: 50%;
+	position: absolute;
+	top: 10px;
+	right: 0;
+	animation-name: box;
+	animation-duration: 20s;
+	animation-iteration-count:inherit;
+	animation-fill-mode: forwards;
+	animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.box:hover {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: gold;
+	box-shadow: 4px 4px 4px rgba(64, 81, 9, 0.725);
+	transform: translate(400px, 100px) scale(1.5)  rotate(360deg);
+	transition-property: all ;
+	transition-duration: 4s;
+	transition-delay: 2s;
+	transition-timing-function: linear;
+
+}
+
+
+@keyframes box{
+	0%{ background-color: rgb(255, 98, 0);}
+	50%{transform: translateX(200px) scale(0.8)}
+	100%{transform:translatex(-300px) ; border: 10px dotted rgb(194, 175, 1); transform: rotate (360deg);  }
+}
+
+
+.world{
+	width: 100%;
+	height: 600px;
+	background:  url(../img/city.webp)0 0/cover no-repeat;
+	position: relative;
+}
+
+.road{
+	width: 100%;
+	height: 200px;
+	background: url(../img/road.webp)0 0/cover no-repeat;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	
+
+	}
+
+
+
+	.avto{
+		position: relative;
+		bottom: 30px;
+		left:0;
+		animation-name: avto;
+		animation-duration: 30s;
+		animation-timing-function: linear;
+		animation-iteration-count: infinite;
+	}
+
+
+		@keyframes avto {
+			0% {
+				left: -600px;
+				transform: rotate(-5deg);
+			}
+	
+			50% {
+				transform: rotate(0) ;
+			}
+	
+			100% {
+				left: 600px;
+			}
+		}
+
+	.frame{
+		width: 809px;
+		height: 30px;
+		background: green;
+		position: absolute;
+		top: 40px;
+		left: 300px;
+	}
+		.cabina {
+			width: 200px;
+			height: 250px;
+			background-color: yellowgreen;
+			position: absolute;
+			bottom:  100%;
+			right:0;
+			border: 6px solid rgb(10, 112, 53);
+			border-radius: 0px 100px 0px 0px;
+		}
+
+	.cargo{
+		width: 500px;
+		height: 150px;
+		border-radius: 70px;
+		background-color: rgb(41, 33, 33);
+		position: absolute;
+		bottom: 100%;
+		left: 20px;
+		text-align: center;
+
+	}
+
+	.text{
+		position: absolute;
+		top: 38%;
+		left: 0;
+		width: 100%;
+		font-size: 40px;
+	}
+
+
+
+
+.door {
+	position: absolute;
+	top: 10%;
+	left: 15%;
+	width: 100px;
+	height: 170px;
+	border: 3px solid rgb(13, 12, 12);
+	border-radius: 10px;
+}
+
+.window {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 70px;
+	background-color: rgb(85, 88, 88);
+	border-radius: 10px;
+	border-bottom: 2px solid #333;
+	animation: window 12s linear 1s infinite ;
+
+}
+
+@keyframes window{
+	0%{ transform: translateY(0px);}
+	50%{transform: translateY(50px);}
+	100%{transform: translateY(0px);}
+}
+
+
+
+
+.door-handle {
+	width: 20px;
+	height: 3px;
+	background-color: rgb(19, 22, 22);
+	position: absolute;
+	bottom: 50%;
+	left: 10%;	
+}
+.headlight{
+	position: absolute;
+	bottom: 10%;
+	right: 0;
+	width: 20px;
+	height: 50px;
+	background-color: rgb(165, 11, 16);
+}
+
+.wheel{
+position: absolute;
+top:  65px;
+left: 0;
+width: 100%;
+}
+
+
+.wheel__left{
+	position: absolute;
+	top: 15%;
+	left: 25%;	
+	width: 100px;
+	height: 100px;
+	background: url(../img/wheel.webp)0 0/ cover no-repeat;
+	animation-name: wheel-left;
+		animation-duration: 10s;
+		animation-timing-function: linear;
+		animation-iteration-count: infinite;
+}
+
+@keyframes wheel-left{
+	0%{transform: rotate(70deg);}
+	50%{transform: rotate(180deg)
+	}
+	100%{transform: rotate(360deg)}
+}
+
+
+
+.wheel__center {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	width: 100px;
+	height: 100px;
+	background: url(../img/wheel.webp)0 0/ cover no-repeat;
+	animation-name: center;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+		
+@keyframes center{
+	0% {
+		transform: rotate(0deg);
+	}
+
+	50% {
+		transform: rotate(180deg)
+	}
+
+	100% {
+		transform: rotate(360deg)
+	}
+}
+
+
+.wheel__right {
+	position: absolute;
+	top: 10%;
+	left: 66%;
+	width: 100px;
+	height: 100px;
+	background: url(../img/wheel.webp)0 0/ cover no-repeat;
+	animation-name: wheel-right;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes wheel-right{
+	0% {
+		transform: rotate(70deg);
+	}
+
+	50% {
+		transform: rotate(180deg)
+	}
+
+	100% {
+		transform: rotate(360deg)
+	}
+}
+
+
