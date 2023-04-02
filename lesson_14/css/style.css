@@ -1,0 +1,126 @@
+@import url("reset.css");
+@import url("common.css");
+
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background-color: rgba(112, 84, 84, 0.981);
+	color: #fff;
+	
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+
+
+[class*="__container"]{
+	max-width: 1270px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 	auto;	
+	
+}
+
+.wrapper__header{
+		position: fixed;
+		width: 100%;
+		left: 0;
+		top: 0;
+		z-index: 50;
+		
+	
+	
+}
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	padding: 36px 0;
+
+}
+
+.header__logo {}
+
+.logo {}
+
+.img-logo {}
+
+.header__menu {}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap:25px;
+	
+	
+}
+
+.menu__list {
+	display: flex;
+	
+	gap: 25px;
+
+
+}
+
+
+
+.list__item {}
+
+
+.item{position: relative;
+	padding: 5px;
+
+	
+}
+
+
+.item_border-bottom:hover  {
+	border-bottom: 2px solid #DDBEA9;
+	padding: 3px;
+	transition: all 0.3s;
+	
+}
+
+.search{
+
+
+}
+
+.border-right::before{
+	content: "";
+	border-left: 2px solid rgba(187, 36, 2, 0.5); 
+	border-radius: 1px;
+}
+
+
+.item_check-mark::after{
+	content: "";
+	background: url(../img/checkmark.svg) 0 0/cover no-repeat;
+	position: absolute;
+	top: 50%;
+	left:  100%;
+	margin-top: -3px;
+	width: 8px;
+	height: 5px;	
+}
+
+
+.item_check-mark:hover::after{
+	transform: rotate(-180deg) scale(1.3) ;
+	transition: all 0.3s;
+	
+	
+}
+.header__bg{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -1;
+}
