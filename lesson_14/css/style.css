@@ -1,0 +1,209 @@
+/* ------------------------ */
+/* ----- Reset Styles ----- */
+/* ------------------------ */
+
+@import url("reset.css");
+
+/* ------------------------ */
+/* -------- Fonts --------- */
+/* ------------------------ */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap");
+
+/* ------------------------ */
+/* ----- Main Styles ------ */
+/* ------------------------ */
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper>main {
+	flex-grow: 1;
+}
+
+[class*="__container"] {
+	max-width: 1270px;
+	padding: 0px 15px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: #F8F9FA;
+	color: #000;
+}
+
+/* ------------------------ */
+/* ------------------------ */
+.header{
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+	justify-items: center;
+	margin-bottom: 44px;
+}
+
+.categoria{
+position: relative;
+font-weight: 500;
+font-size: 12px;
+line-height: 2.08;
+color: #495057;
+}
+.categoria::after{
+	content: "+";
+	position: absolute;
+	top: 0;
+	right: -20px;
+}
+
+.categoria:hover{
+	text-decoration: underline;
+	color: #000;
+}
+
+.column{
+	display: flex;
+	gap: 20px;
+}
+
+.column a:hover{
+	text-decoration: underline;
+}
+
+.column__header{
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 2.08;
+	color: rgba(73, 80, 87, 0.5);
+}
+
+.column__active{
+	color: #495057;
+}
+
+
+.cards{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+row-gap: 45px;
+margin: 0 -15px;
+}
+
+.card{
+flex: 0 0 33.333%;
+padding: 0 15px;
+}
+
+.image{
+width: 100%;
+max-height: 250px;
+position: relative;
+overflow: hidden;
+}
+
+.img img{
+border-radius: 3px;
+display: block;
+max-width: 100%;
+transition: all 1s;	
+}
+
+.image:hover img{
+transform: scale(1.05);	
+}
+
+
+
+.image__creative{
+color: #F8F9FA;
+font-size: 8px;
+font-weight: 700;
+text-align: center;
+line-height: 2.5;
+text-transform: uppercase;
+background-color: #2125294D;
+border-radius: 3px;
+padding: 3px 12px;
+position: absolute;
+top: 12%;
+right: 8%;
+transition: all 0.3s;
+}
+
+.image__creative:hover{
+background-color: #cdd00aa1;
+}
+
+
+.item{
+min-height: 100%;
+padding: 0 10px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 30px;
+
+
+
+}
+
+.text{
+display: flex;
+flex-direction: column;
+row-gap: 15px;
+font-weight: 300;
+font-size: 12px;
+line-height: 1.66;
+color: #495057;
+flex-grow: 1;
+}
+
+.content{
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	color: #212529;
+	flex-grow: 1;
+	
+	
+	}
+
+	.subtext{
+	}
+
+	.text__underline{
+		border: 1px solid #E5E5E5;
+		max-width: 100%;
+	}
+
+
+	.author:hover{
+	color: rgb(168, 5, 5);
+	
+
+	}
+
+	.cards__buttom{
+			
+			font-weight: 500;
+			font-size: 12px;
+			color: #F8F9FA;
+			text-align: center;
+			background-color: #212529;
+			border-radius: 3px;
+			padding: 7px 50px;
+			line-height: 2.08;
+			transition: all 0.3s;
+	}
+	
+	.cards__buttom:hover{
+		background-color: rgba(6, 34, 34, 0.235);
+		color: black;
+	}
