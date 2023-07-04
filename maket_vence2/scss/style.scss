@@ -1,0 +1,233 @@
+@import "css/reset.css";
+@import "css/style.css";
+
+
+$colortitle:  #F8F9FA;
+$colortext: #212529;
+
+%font{
+	color: #495057;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 20/12;
+}
+
+// подключение шрифтов
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,500700&display=swap");
+
+// 
+
+body{
+	font-family: "poppins", sans-serif;
+}
+
+[class*="__container"] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper>main {
+	flex: 1 1 auto;
+}
+
+.main {
+
+	// .main__blog
+
+	&__blog {}
+
+	// .main__container
+
+	&__container {}
+
+	// .main__title
+
+	&__title {
+		padding-top: 30px;
+		padding-bottom: 60px;
+		color: $colortext;
+		font-size: 25px;
+		font-weight: 500;
+		line-height: 80%; /* 20/25 */
+	}
+
+	// .main__article
+
+	&__article {
+		display: flex;
+		justify-content: flex-start;
+		
+}
+}
+
+.article {
+	
+
+
+	// .article__dscription
+
+	&__dscription {
+		flex: 0 0 498px;
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+		
+		
+	}
+
+	// .article__image
+
+	&__image {
+		flex-grow: 0;
+		margin-left: 136px;
+	}
+}
+
+.dscription {
+	
+	// .dscription__item
+
+	&__item {
+		display: flex;
+		gap: 30px;
+		justify-content: flex-start;
+	}
+}
+
+.item {
+
+	// .item__icon
+
+	&__icon {
+		flex: 0 0 181px;
+
+		// .item__icon_img
+
+		&_img img {
+			width: 100%;
+		}
+	}
+
+	// .item__content
+
+	&__content {
+		flex-grow: 1;
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+		justify-content: flex-start;
+		@extend %font;
+	}
+}
+
+
+.content {
+
+	// .content__date
+
+	&__date {}
+
+		.content {
+			
+			// .content__body
+	
+			&__body {
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				gap: 15px;
+				flex-grow: 1 ;
+
+			}
+		}
+	
+		.body {
+	
+			// .body__title
+	
+			&__title {
+				font-size: 16px;
+				font-weight: 500;
+				line-height: 156.25%; /* 25/16 */
+			}
+	
+			// .body__text
+	
+			&__text {}
+		}
+
+	// .content__author
+
+	&__author {
+		
+	}
+}
+
+.article {
+	
+
+	// .article__image
+
+	&__image {
+		background: url(../img/main/women.png) 0 0/cover no-repeat;
+		min-height: 100%;
+		width: 100%;
+		display: flex;
+		align-items: flex-end;
+		border-radius: 3px;
+
+		// .article__image_content
+
+		&_content {}
+	}
+}
+
+
+
+
+.image {
+
+	// .image_content
+
+	&_content {}
+}
+
+.image_content {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	gap: 15px;
+	flex: 1 0  393px;
+	padding: 0 161px 50px 50px;
+	color: #E5E5E5;
+
+	// .image_content__date
+
+	&__date {
+		
+	}
+
+	// .image_content__title
+
+	&__title {
+		color: $colortitle;
+		color: #F8F9FA;
+		font-size: 25px;
+		font-weight: 700;
+		line-height: 160%; /* 40/25 */
+	}
+
+	// .image_content__text
+
+	&__text {}
+}
