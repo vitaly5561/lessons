@@ -182,7 +182,7 @@ body {
 /* style for main	 */
 .main__product {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(auto, 370px));
+	grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
 	grid-template-rows: repeat(2, 1fr);
 	gap: 20px;
 }
