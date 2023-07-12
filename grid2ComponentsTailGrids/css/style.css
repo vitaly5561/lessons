@@ -253,7 +253,7 @@ body {
 
 .body__text_like {
 	grid-column: 2 / 3;
-	justify-self: center;
+	justify-self: end;
 	padding-right: 24px;
 	position: relative;
 	font-size: 16px;
